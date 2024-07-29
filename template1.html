@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent1 {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f2f2f2;
+            padding: 10px 0px;
+
+        }
+
+        .parent2 {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0px;
+            background-color: white;
+
+        }
+
+        .child1 {
+            position: relative;
+            right: 300px;
+            padding-right: 28%;
+        }
+
+        .child2 {
+            position: absolute;
+            right: 200px;
+
+
+        }
+
+        .parent3 {
+            width: 100%;
+            height: 1000px;
+
+        }
+
+        .circle {
+            width: 215px;
+            height: 215px;
+            background: linear-gradient(#f9a0bf, #727cf0);
+            border-radius: 50%;
+            position: absolute;
+            left: 222px;
+            top: 210px;
+        }
+
+        .rectangle {
+            width: 700px;
+            height: 350px;
+            background-image: linear-gradient(#f9a0bf, #c5c9f9);
+            position: absolute;
+            left: 594px;
+            top: 523px;
+
+        }
+
+        .grpimg {
+            width: 800px;
+            height: 500px;
+            background-color: beige;
+            background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/ghgh8.jpg");
+            background-size: cover;
+            border-radius: 20px;
+            position: absolute;
+            bottom: -60px;
+            left: 320px;
+        }
+
+        .aboutus {
+            width: 460px;
+            height: 380px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px 40px;
+            position: absolute;
+            bottom: -365px;
+            left: 675px;
+        }
+
+        .aboutus h1 {
+            font-size: 54px;
+            color: #f01965;
+        }
+
+        .para1 {
+            font-size: 1.20rem;
+            font-weight: 400;
+
+
+
+        }
+
+        .para2 {
+            font-size: 1.20rem;
+            font-weight: 400;
+        }
+
+
+
+        .aboutus span a {
+
+            color: black;
+        }
+
+        .aboutus button {
+            background-color: #727cf0;
+            color: white;
+            padding: 9px 15px;
+            border-radius: 10px;
+            font-size: 19px;
+            letter-spacing: 2.5px;
+            border: transparent;
+
+
+        }
+
+        .parent4 {
+            width: 100%;
+            min-height: 1700px;
+            background-image: linear-gradient(to right, #fee7ef, #c5c9f9);
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .mainchild {
+            background-color: white;
+            width: 80%;
+            height: 1624px;
+        }
+
+        .content {
+            position: relative;
+            bottom: 1135px;
+            right: 81px;
+        
+        }
+
+        .parent4 h2 {
+            color: #f01965;
+
+            font-size: 3rem;
+            position: absolute;
+            left: 35%;
+            top: 1050px;
+        }
+
+        .img7 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 8%;
+            top: 1260px;
+            clip-path: inset(0px 90px 0px 90px);
+
+        }
+
+        .person1 {
+            width: 200px;
+            background-color: white;
+            height: 300px;
+            position: absolute;
+            left: 19%;
+            top: 1555px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person1 h3 {
+            color: #f01965;
+            padding-left: 25px;
+
+        }
+
+        .person1 p {
+            padding-left: 20px;
+
+        }
+
+        .img8 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 35%;
+            top: 1260px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person2 {
+            width: 200px;
+            background-color: white;
+            height: 300px;
+            position: absolute;
+            left: 45%;
+            top: 1555px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person2 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person2 p {
+            padding-left: 52px;
+
+        }
+
+        .facebook img {
+            width: 15px;
+            height: 15px;
+
+        }
+
+        .twitter img {
+            width: 15px;
+            height: 15px;
+
+        }
+
+        .instagram img {
+            width: 15px;
+            height: 15px;
+
+        }
+
+        .images {
+            width: 100px;
+            height: 100px;
+
+            margin: auto;
+        }
+
+        .img9 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 60%;
+            top: 1260px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person3 {
+            width: 200px;
+            background-color: white;
+            height: 300px;
+            position: absolute;
+            left: 70%;
+            top: 1555px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person3 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person3 p {
+            padding-left: 52px;
+
+        }
+
+        .img10 img {
+
+            height: 357px;
+            width: 560px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 7.8%;
+            top: 1773px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person4 {
+            width: 200px;
+            background-color: white;
+            height: 300px;
+            position: absolute;
+            left: 19%;
+            top: 2040px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person4 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person4 p {
+            padding-left: 25px;
+
+        }
+
+        .img11 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 35%;
+            top: 1773px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person5 {
+            width: 200px;
+            background-color: white;
+            height: 300px;
+            position: absolute;
+            left: 45%;
+            top: 2040px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person5 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person5 p {
+            padding-left: 52px;
+
+        }
+
+        .img12 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 60%;
+            top: 1773px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person6 {
+            width: 200px;
+            background-color: white;
+            height: 300px;
+            position: absolute;
+            left: 70%;
+            top: 2040px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person6 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person6 p {
+            padding-left: 52px;
+
+        }
+
+        .img13 img {
+
+            height: 357px;
+            width: 560px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 7.8%;
+            top: 2286px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person7 {
+            width: 200px;
+            background-color: white;
+            height: 179px;
+            position: absolute;
+            left: 19%;
+            top: 2580px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person7 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person7 p {
+            padding-left: 45px;
+
+        }
+
+        .img14 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 35%;
+            top: 2286px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person8 {
+            width: 200px;
+            background-color: white;
+            height: 179px;
+            position: absolute;
+            left: 45%;
+            top: 2580px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person8 h3 {
+            color: #f01965;
+            padding-left: 20px;
+
+        }
+
+        .person8 p {
+            padding-left: 45px;
+
+        }
+
+        .img15 img {
+
+            height: 357px;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            position: absolute;
+            left: 60%;
+            top: 2286px;
+            clip-path: inset(0px 109px 0px 103px);
+
+        }
+
+        .person9 {
+            width: 200px;
+            background-color: white;
+            height: 179px;
+            position: absolute;
+            left: 70%;
+            top: 2580px;
+            padding-left: 22px;
+            font-size: larger;
+        }
+
+        .person9 h3 {
+            color: #f01965;
+            padding-left: 16px;
+
+        }
+
+        .person9 p {
+            padding-left: 41px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent1">
+        <div>
+            <img src="https://csite.nicepage.com/Images/logo-w.png" alt="">
+        </div>
+        <!--  -->
+        <div>
+            <img src="https://csite.nicepage.com/Images/Site/responsive-desktop.png" alt="">
+            <img src="https://csite.nicepage.com/Images/Site/responsive-laptop.png" alt="">
+            <img src="https://csite.nicepage.com/Images/Site/responsive-tablet.png" alt="">
+            <img src="https://csite.nicepage.com/Images/Site/responsive-phone-horizontal.png" alt="">
+            <img src="https://csite.nicepage.com/Images/Site/responsive-phone.png" alt="">
+        </div>
+        <!--  -->
+        <div>
+            <img src="https://csite.nicepage.com/Images/Site/icon-close.png" alt="">
+        </div>
+    </div>
+    <!--  -->
+
+    <div class="parent2">
+        <div class="child1">
+            <img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/default-logo.png" alt="">
+        </div>
+        <div class="child2">
+            <img src="https://csite.nicepage.com/Images/Site/icon-close.png" alt="">
+        </div>
+    </div>
+    <!--  -->
+
+
+    <div class="parent3">
+        <div class="circle"></div>
+        <!--  -->
+        <div class="rectangle"></div>
+        <!--  -->
+        <div class="grpimg"></div>
+        <!--  -->
+        <div class="aboutus">
+            <h1>About Studio </h1>
+            <p class="para1">We’re a small creative design studio based in New York,<br>working with adventurous clients
+                and providing
+                Creative <br> Concept, Branding, Graphic Design, Art Direction and <br>Digital Communication services.
+            </p>
+            <p class="para2">Images from <span><a href="">Freepik</a></span>
+            </p>
+            <button>learn more</button>
+
+        </div>
+    </div>
+    <!--  -->
+    <div class="parent4">
+        <div class="mainchild">
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img7"><img
+                        src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/happy-man-with-long-thick-ginger-beard-has-friendly-smile_273609-16616.jpg"
+                        alt=""></div>
+                <div class="person1">
+                    <h3>Nat Reynolds</h3>
+                    <p>Worldwide Partner</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img8"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/woman4.jpg" alt="">
+                </div>
+                <div class="person2">
+                    <h3>Jennie Roberts</h3>
+                    <p>Partner</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img9"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/woman7.jpg" alt="">
+                </div>
+                <div class="person3">
+                    <h3>Mila Parker</h3>
+                    <p>Partner</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img10"><img
+                        src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg"
+                        alt=""></div>
+                <div class="person4">
+                    <h3>Monica Pouli</h3>
+                    <p>Creative Leader</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img11"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/man895.jpg" alt="">
+                </div>
+                <div class="person5">
+                    <h3>Walter Lilly</h3>
+                    <p>Partner</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img12"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/5man.jpg" alt="">
+                </div>
+                <div class="person6">
+                    <h3>Peter Howard</h3>
+                    <p>Partner</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img13"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/woman9.jpg" alt="">
+                </div>
+                <div class="person7">
+                    <h3>Sasha Payne</h3>
+                    <p>Designer</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img14"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/ddddddd.jpg" alt="">
+                </div>
+                <div class="person8">
+                    <h3>James Oliver</h3>
+                    <p>Designer</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Our Amazing team</h2>
+                <div class="img15"><img src="https://assets.nicepagecdn.com/d2cc3eaa/1978229/images/woman8.jpg" alt="">
+                </div>
+                <div class="person9">
+                    <h3>Ann Richmond</h3>
+                    <p>Developer</p>
+                    <div class="images">
+                        <span class="facebook"><img src="Facebooklogo.png" alt=""></span>
+                        <span class="twitter"><img src="twitter.png" alt=""></span>
+                        <span class="instagram"><img src="instagram-Photoroom-transformed.jpeg" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
